@@ -1,7 +1,7 @@
 import {question} from 'readline-sync';
 
-let w:number=Number(question("Moi nhap w: "));
-let h:number=Number(question("Moi nhap h: "));
+let w:number=Number(question("w = "));
+let h:number=Number(question("h = "));
 for(let i:number=1;i<=h;i++){
     let s:String="";
     if(i==1 || i==h){
